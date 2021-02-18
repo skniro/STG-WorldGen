@@ -1,0 +1,57 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:apple"
+				}
+			}
+		},
+		"golden_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:golden_apple"
+				}
+			}
+		},
+		"enchanted_golden_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:enchanted_golden_apple"
+				}
+			}
+		},
+		"carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:carrot"
+				}
+			}
+		},
+		"golden_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:golden_carrot"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"apple",
+			"golden_apple",
+			"enchanted_golden_apple",
+			"carrot",
+			"golden_carrot"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/neg4"
+	}
+}

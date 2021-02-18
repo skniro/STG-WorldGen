@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit_stew",
+					"nbt": "{id:\"cpp:colorful_vegetable\"}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/foods/colorful_vegetable"
+	}
+}

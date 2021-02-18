@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"braised_beef_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit_stew",
+					"nbt": "{id:\"cpp:braised_beef_with_potatoes\"}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/foods/braised_beef_with_potatoes"
+	}
+}

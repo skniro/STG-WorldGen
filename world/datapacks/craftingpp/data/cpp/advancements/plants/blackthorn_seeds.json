@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"blackthorn_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt":"{id:\"cpp:blackthorn_seeds\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/blackthorn_seeds"
+	}
+}

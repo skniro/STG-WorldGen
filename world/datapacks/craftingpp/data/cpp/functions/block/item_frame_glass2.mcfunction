@@ -1,0 +1,8 @@
+tag @s remove cpp_has_item
+execute as @s[nbt={Facing:3b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:104}}]}
+execute as @s[nbt={Facing:4b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:104}}],Rotation:[90.0f,0.0f]}
+execute as @s[nbt={Facing:5b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:104}}],Rotation:[270.0f,0.0f]}
+execute as @s[nbt={Facing:2b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:104}}],Rotation:[180.0f,0.0f]}
+execute as @s[nbt={Facing:1b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:105}}]}
+execute as @s[nbt={Facing:0b}] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_item_frame"],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:stone_axe",tag:{Unbreakable:1b,Damage:106}}]}
+tag @s add cpp_has_no_item

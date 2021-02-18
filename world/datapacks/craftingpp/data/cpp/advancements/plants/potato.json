@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"potato": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:potato"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/potato"
+	}
+}

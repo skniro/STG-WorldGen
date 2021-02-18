@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"acacia_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:acacia_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/acacia_slab"
+	}
+}

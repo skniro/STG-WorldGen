@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_sapling"
+		},
+		"title":{
+			"translate": "advancements.cpp.gardener.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.gardener.description"
+		}
+	},
+	"parent": "cpp:artist",
+	"criteria": {
+		"gardener": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{id:\"cpp:wool_sapling\"}"						
+					},
+					{
+						"nbt": "{id:\"cpp:fruit_sapling\"}"						
+					},
+					{
+						"nbt": "{id:\"cpp:ore_sapling\"}"						
+					}
+				]
+			}
+		}
+	}
+}

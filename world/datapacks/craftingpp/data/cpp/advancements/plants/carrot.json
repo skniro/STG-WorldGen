@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"carrot": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:carrot"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/carrot"
+	}
+}

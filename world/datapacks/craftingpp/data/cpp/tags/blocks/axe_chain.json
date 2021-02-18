@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:axe_leaves",
+		"minecraft:melon",
+		"#cpp:axe_mushroom",
+		"#cpp:axe_plants",
+		"#cpp:axe_logs"
+	]
+}

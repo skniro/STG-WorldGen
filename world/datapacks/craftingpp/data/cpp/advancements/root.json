@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick"
+		},
+		"title":{
+			"translate": "advancements.cpp.root.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.root.description"
+		},
+		"background": "minecraft:textures/block/stone_bricks.png"
+	},
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "cpp:adv/root"
+	}
+}

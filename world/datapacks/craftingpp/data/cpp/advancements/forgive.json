@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_helmet",
+			"nbt":"{display:{color:2545212}}"
+		},
+		"title":{
+			"translate": "advancements.cpp.forgive.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.forgive.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"element": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

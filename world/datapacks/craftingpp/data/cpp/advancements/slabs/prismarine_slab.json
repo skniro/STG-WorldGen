@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"prismarine_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:prismarine_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/prismarine_slab"
+	}
+}

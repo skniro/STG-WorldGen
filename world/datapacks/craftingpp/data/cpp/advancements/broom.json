@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_sword",
+			"nbt":"{Unbreakable:1b,Damage:25}"
+		},
+		"title":{
+			"translate": "advancements.cpp.broom.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.broom.description"
+		}
+	},
+	"parent": "cpp:forgive",
+	"criteria": {
+		"element": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

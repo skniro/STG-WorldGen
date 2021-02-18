@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"nether_brick_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:nether_brick_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/nether_brick_slab"
+	}
+}

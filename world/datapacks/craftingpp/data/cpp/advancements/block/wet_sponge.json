@@ -1,0 +1,22 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"wet_sponge": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:wet_sponge"
+				}
+			}
+		},
+		"in_the_nether": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "the_nether"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:block/wet_sponge"
+	}
+}

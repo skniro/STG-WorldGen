@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:block/root",
+	"criteria": {
+		"portable_crafting_table": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:player_head",
+					"nbt":"{id:\"cpp:portable_crafting_table\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:block/portable_crafting_table"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_sword",
+			"nbt":"{Unbreakable:1b,Damage:9}"
+		},
+		"title":{
+			"translate": "advancements.cpp.transporter.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.transporter.description"
+		}
+	},
+	"parent": "cpp:dark_animal",
+	"criteria": {
+		"transporter": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

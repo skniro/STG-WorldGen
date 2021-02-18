@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"meat_floss_bread": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:bread",
+					"nbt": "{id:\"cpp:meat_floss_bread\"}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/foods/meat_floss_bread"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "smelting",
+	"ingredient": {
+		"item": "minecraft:egg"
+	},
+	"result": "minecraft:mushroom_stew",
+	"experience": 0.35,
+	"cookingtime": 200
+}

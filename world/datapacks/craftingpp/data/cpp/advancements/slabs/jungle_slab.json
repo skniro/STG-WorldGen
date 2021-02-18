@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"jungle_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:jungle_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/jungle_slab"
+	}
+}

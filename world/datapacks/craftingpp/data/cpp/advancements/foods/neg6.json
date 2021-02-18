@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"beetroot_soup": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beetroot_soup"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/fatness/neg6"
+	}
+}

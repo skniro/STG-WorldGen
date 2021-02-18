@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ snow_block if block ~2 ~ ~ emerald_block if block ~2 ~ ~-1 emerald_block if block ~2 ~ ~1 emerald_block if block ~-2 ~ ~ emerald_block if block ~-2 ~ ~-1 emerald_block if block ~-2 ~ ~1 emerald_block if block ~ ~ ~2 emerald_block if block ~-1 ~ ~2 emerald_block if block ~1 ~ ~2 emerald_block if block ~-1 ~ ~-2 emerald_block if block ~ ~ ~-2 emerald_block if block ~1 ~ ~-2 emerald_block if block ~1 ~ ~-1 air if block ~1 ~ ~ air if block ~1 ~ ~1 air if block ~ ~ ~-1 air if block ~ ~ ~1 air if block ~1 ~ ~-1 air if block ~1 ~ ~ air if block ~1 ~ ~1 air run function bsd:system/portal
+execute if block ~ ~ ~ snow_block if block ~ ~-1 ~ furnace align xyz run summon armor_stand ~0.5 ~-1 ~0.5 {Invulnerable:1b,Invisible:1b,NoGravity:1b,Tags:["bsd_power_furnace"],Marker:1b}
+execute if block ~ ~ ~ snow_block if block ~ ~-1 ~ furnace align xyz run data merge block ~ ~-1 ~ {CustomName:"{\"translate\":\"item.bsd.block_breaker\"}",Lock:"zsx<3wtt"}
+execute if block ~ ~ ~ snow_block if block ~ ~-1 ~ furnace align xyz run tellraw @s {"translate":"item.bsd.block_breaker.finished"}
+execute if block ~ ~ ~ snow_block if block ~ ~-1 ~ furnace align xyz run setblock ~ ~ ~ air
+execute if entity @s[distance=..5] unless block ~ ~ ~ snow_block positioned ^ ^ ^0.005 run function bsd:system/ray_snow_block

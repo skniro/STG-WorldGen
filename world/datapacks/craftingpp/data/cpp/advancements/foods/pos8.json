@@ -1,0 +1,39 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"cooked_porkchop": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_porkchop"
+				}
+			}
+		},
+		"cooked_mutton": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_mutton"
+				}
+			}
+		},
+		"cooked_beef": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_beef"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"cooked_porkchop",
+			"cooked_mutton",
+			"cooked_beef"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/pos8"
+	}
+}

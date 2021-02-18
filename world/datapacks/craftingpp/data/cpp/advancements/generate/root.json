@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"overworld": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "overworld"
+			}
+		}
+	},
+	"rewards": {
+		"function":"cpp:generate/generate"
+	}
+}

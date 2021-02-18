@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"forage_crystal_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt":"{id:\"cpp:forage_crystal_seeds\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/forage_crystal_seeds"
+	}
+}

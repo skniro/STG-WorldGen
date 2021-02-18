@@ -1,0 +1,30 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		},
+		"rabbit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"chicken",
+			"rabbit"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/pos2"
+	}
+}

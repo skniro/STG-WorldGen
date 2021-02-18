@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"glow_forsythia_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt":"{id:\"cpp:glow_forsythia_seeds\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/glow_forsythia_seeds"
+	}
+}

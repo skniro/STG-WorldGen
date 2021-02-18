@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"stelera_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt":"{id:\"cpp:stelera_seeds\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/stelera_seeds"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"wheat_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:wheat_seeds"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/wheat_seeds"
+	}
+}

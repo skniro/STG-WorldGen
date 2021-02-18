@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"baked_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:carrot",
+					"nbt": "{id:\"cpp:baked_carrot\"}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/foods/baked_carrot"
+	}
+}

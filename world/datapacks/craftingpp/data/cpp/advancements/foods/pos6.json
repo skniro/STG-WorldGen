@@ -1,0 +1,30 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"cooked_chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_chicken"
+				}
+			}
+		},
+		"cooked_rabbit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_rabbit"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"cooked_chicken",
+			"cooked_rabbit"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/pos6"
+	}
+}

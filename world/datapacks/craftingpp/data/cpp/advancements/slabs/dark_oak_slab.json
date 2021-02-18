@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"dark_oak_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:dark_oak_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/dark_oak_slab"
+	}
+}

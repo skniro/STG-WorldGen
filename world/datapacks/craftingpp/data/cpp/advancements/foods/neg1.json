@@ -1,0 +1,39 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"potato": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:potato"
+				}
+			}
+		},
+		"baked_potato": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:baked_potato"
+				}
+			}
+		},
+		"beetroot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beetroot"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"potato",
+			"baked_potato",
+			"beetroot"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/neg1"
+	}
+}

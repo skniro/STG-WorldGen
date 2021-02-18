@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"stone_brick_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:stone_brick_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/stone_brick_slab"
+	}
+}

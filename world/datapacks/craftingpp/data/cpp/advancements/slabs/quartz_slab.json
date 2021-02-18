@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"quartz_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:quartz_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/quartz_slab"
+	}
+}

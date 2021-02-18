@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"petrified_oak_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:petrified_oak_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/petrified_oak_slab"
+	}
+}

@@ -1,0 +1,7 @@
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,id:"minecraft:snow_block"},{Slot:20b,tag:{id:"cpp:heart_of_ocean"}},{Slot:21b,id:"minecraft:snow_block"}]} run function cpp:craft/items/low_temperature_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,id:"minecraft:glass"},{Slot:20b,tag:{id:"cpp:wing_of_sky"}},{Slot:21b,id:"minecraft:glass"}]} run function cpp:craft/items/low_pressure_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,id:"minecraft:lava_bucket"},{Slot:20b,tag:{id:"cpp:nova_of_fire"}},{Slot:21b,id:"minecraft:lava_bucket"}]} run function cpp:craft/items/high_temperature_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,id:"minecraft:piston"},{Slot:20b,tag:{id:"cpp:limb_of_ridge"}},{Slot:21b,id:"minecraft:piston"}]} run function cpp:craft/items/high_pressure_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,tag:{id:"cpp:enchanted_iron"}},{Slot:20b,id:"minecraft:stone_pickaxe"},{Slot:21b,tag:{id:"cpp:enchanted_iron"}}]} run function cpp:craft/items/cobblestone_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,tag:{id:"cpp:enchanted_iron"}},{Slot:20b,id:"minecraft:iron_pickaxe"},{Slot:21b,tag:{id:"cpp:enchanted_iron"}}]} run function cpp:craft/items/stone_plugin
+execute if block ~ ~ ~ chest{Items:[{Slot:19b,tag:{id:"cpp:enchanted_iron"}},{Slot:20b,id:"minecraft:golden_pickaxe"},{Slot:21b,tag:{id:"cpp:enchanted_iron"}}]} run function cpp:craft/items/obsidian_plugin

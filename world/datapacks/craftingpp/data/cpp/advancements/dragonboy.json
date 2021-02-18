@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_rod"
+		},
+		"title":{
+			"translate": "advancements.cpp.dragonboy.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.dragonboy.description"
+		}
+	},
+	"parent": "cpp:broom",
+	"criteria": {
+		"dragonboy": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

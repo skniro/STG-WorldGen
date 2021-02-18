@@ -1,0 +1,2 @@
+execute if entity @s[distance=..5] unless block ~ ~ ~ #cpp:player_heads{Owner:{Id:"e46c1685-b94d-4785-90d5-e86f8289add6"}} positioned ^ ^ ^0.005 run function cpp:block/portable_crafting_table_ray
+execute if block ~ ~ ~ #cpp:player_heads{Owner:{Id:"e46c1685-b94d-4785-90d5-e86f8289add6"}} align xyz run summon armor_stand ~0.5 ~0.5 ~0.5 {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_portable_crafting_table"],Pose:{RightArm:[0.0f,0.0f,0.0f]}}

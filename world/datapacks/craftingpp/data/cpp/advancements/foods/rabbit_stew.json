@@ -1,0 +1,17 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"rabbit_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rabbit_stew",
+					"nbt": "{id:\"cpp:rabbit_stew\"}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:foods/foods/rabbit_stew"
+	}
+}

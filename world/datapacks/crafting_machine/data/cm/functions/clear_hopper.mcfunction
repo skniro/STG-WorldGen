@@ -1,0 +1,5 @@
+execute if block ~ ~-1 ~ minecraft:hopper{Items:[{Slot:4b,tag:{isMachineBg:1b}}]} run data remove block ~ ~-1 ~ Items[4]
+execute if block ~ ~-1 ~ minecraft:hopper{Items:[{Slot:3b,tag:{isMachineBg:1b}}]} run data remove block ~ ~-1 ~ Items[3]
+execute if block ~ ~-1 ~ minecraft:hopper{Items:[{Slot:2b,tag:{isMachineBg:1b}}]} run data remove block ~ ~-1 ~ Items[2]
+execute if block ~ ~-1 ~ minecraft:hopper{Items:[{Slot:1b,tag:{isMachineBg:1b}}]} run data remove block ~ ~-1 ~ Items[1]
+execute if block ~ ~-1 ~ minecraft:hopper{Items:[{Slot:0b,tag:{isMachineBg:1b}}]} run data remove block ~ ~-1 ~ Items[0]

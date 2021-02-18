@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:plants/root",
+	"criteria": {
+		"burning_chrysanthe_seeds": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt":"{id:\"cpp:burning_chrysanthe_seeds\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:plants/plants/burning_chrysanthe_seeds"
+	}
+}

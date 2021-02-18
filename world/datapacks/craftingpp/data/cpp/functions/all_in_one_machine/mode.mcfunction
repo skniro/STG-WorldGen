@@ -1,0 +1,9 @@
+execute as @s[scores={cppTemperature=0,cppPressure=0}] run function cpp:all_in_one_machine/typell/check
+execute as @s[scores={cppTemperature=0,cppPressure=1}] run function cpp:all_in_one_machine/typeln/check
+execute as @s[scores={cppTemperature=0,cppPressure=2}] run function cpp:all_in_one_machine/typelh/check
+execute as @s[scores={cppTemperature=1,cppPressure=0}] run function cpp:all_in_one_machine/typenl/check
+execute as @s[scores={cppTemperature=1,cppPressure=1}] run function cpp:all_in_one_machine/typenn/check
+execute as @s[scores={cppTemperature=1,cppPressure=2}] run function cpp:all_in_one_machine/typenh/check
+execute as @s[scores={cppTemperature=2,cppPressure=0}] run function cpp:all_in_one_machine/typehl/check
+execute as @s[scores={cppTemperature=2,cppPressure=1}] run function cpp:all_in_one_machine/typehn/check
+execute as @s[scores={cppTemperature=2,cppPressure=2}] run function cpp:all_in_one_machine/typehh/check

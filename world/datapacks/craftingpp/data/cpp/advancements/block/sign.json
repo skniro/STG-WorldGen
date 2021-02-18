@@ -1,0 +1,14 @@
+{
+	"parent": "cpp:block/root",
+	"criteria": {
+		"sign": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block":"minecraft:sign"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:block/sign"
+	}
+}

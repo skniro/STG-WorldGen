@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:bone_meal",
+					"weight": 7
+				},
+				{
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.bsd.coal_shard\\\"}\"},id:\"bsd:coal_shard\",HideFlags:63,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.bsd.iron_shard\\\"}\"},id:\"bsd:iron_shard\",HideFlags:63,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.bsd.gold_shard\\\"}\"},id:\"bsd:gold_shard\",HideFlags:63,Enchantments:[{}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

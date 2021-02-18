@@ -1,0 +1,16 @@
+{
+	"parent": "cpp:root",
+	"criteria": {
+		"sandstone_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item":"minecraft:sandstone_slab"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:slabs/sandstone_slab"
+	}
+}

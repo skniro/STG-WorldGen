@@ -1,0 +1,39 @@
+{
+	"parent": "cpp:foods/root",
+	"criteria": {
+		"mutton": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:mutton"
+				}
+			}
+		},
+		"beef": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beef"
+				}
+			}
+		},
+		"porkchop": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:porkchop"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"mutton",
+			"beef",
+			"porkchop"
+		]
+	],
+	"rewards":{
+		"function": "cpp:foods/fatness/pos3"
+	}
+}
