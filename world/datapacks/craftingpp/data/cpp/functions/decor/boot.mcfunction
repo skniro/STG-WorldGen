@@ -1,2 +1,0 @@
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{id:"cpp:snow_boots"}}]}] at @s if block ~ ~ ~ minecraft:snow run effect give @s speed 1
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{id:"cpp:snow_boots"}}]}] at @s if block ~ ~-1 ~ minecraft:snow_block run effect give @s speed 1

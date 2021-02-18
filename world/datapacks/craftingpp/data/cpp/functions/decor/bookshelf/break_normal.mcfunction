@@ -1,2 +1,0 @@
-scoreboard players reset @s cppBreakBooks
-execute unless entity @s[nbt={SelectedItem:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] at @e[type=item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:book"}}] as @s at @s run summon item ^ ^ ^5 {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"translate\":\"item.cpp.empty_bookshelf\"}"},HideFlags:63,id:"cpp:empty_bookshelf",Unbreakable:1b,Damage:19}}}

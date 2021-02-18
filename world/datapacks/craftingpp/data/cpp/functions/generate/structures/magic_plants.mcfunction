@@ -1,6 +1,0 @@
-fill ~ ~-1 ~ ~1 ~-1 ~1 farmland
-fill ~ ~ ~ ~1 ~ ~1 wheat
-execute align xyz run summon armor_stand ~0.5 ~-0.5 ~0.5 {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_magic_plants","cpp_magic_plants_growing"],HandItems:[{id:"minecraft:wooden_axe",Count:1b,tag:{Unbreakable:1b,Damage:2}},{}],Pose:{RightArm:[0.0f,0.0f,0.0f]}}
-execute align xyz run summon armor_stand ~1.5 ~-0.5 ~0.5 {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_magic_plants","cpp_magic_plants_growing"],HandItems:[{id:"minecraft:wooden_axe",Count:1b,tag:{Unbreakable:1b,Damage:1}},{}],Pose:{RightArm:[0.0f,0.0f,0.0f]}}
-execute align xyz run summon armor_stand ~0.5 ~-0.5 ~1.5 {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_magic_plants","cpp_magic_plants_growing"],HandItems:[{id:"minecraft:wooden_axe",Count:1b,tag:{Unbreakable:1b,Damage:3}},{}],Pose:{RightArm:[0.0f,0.0f,0.0f]}}
-execute align xyz run summon armor_stand ~1.5 ~-0.5 ~1.5 {Invulnerable:1b,Invisible:1b,Marker:1b,NoGravity:1b,Small:1b,DisabledSlots:7967,Tags:["cpp_magic_plants","cpp_magic_plants_growing"],HandItems:[{id:"minecraft:wooden_axe",Count:1b,tag:{Unbreakable:1b,Damage:4}},{}],Pose:{RightArm:[0.0f,0.0f,0.0f]}}
